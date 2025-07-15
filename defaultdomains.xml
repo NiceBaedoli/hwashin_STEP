@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="register_no" id="1D42BB85-7863-65BB-3EB4-BEAEB2CAC7A0">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 04:55:47 UTC</createdTime>
+<comment><![CDATA[M_Roadmap 관리번호]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="vc2_500" id="2C486132-5E15-9017-CDF4-520370F1D352">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:56:09 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="vc2_100" id="43081F5E-98F9-F36A-BD86-463A2B22C2B6">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:43:50 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="system_catalog" id="902B4F18-9BB1-283A-F618-C7FFC4513D3E">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:38:31 UTC</createdTime>
+<comment><![CDATA[시스템 카타로그]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="companycd" id="98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 04:53:34 UTC</createdTime>
+<comment><![CDATA[사업장코드]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<defaultValue>00</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 02:25:36 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

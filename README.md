@@ -1,2 +1,2 @@
-# hwashin_STEP
-hwashin company S-TEP Project
+# hwashin_step
+Hwashin Company S-TEP Repository

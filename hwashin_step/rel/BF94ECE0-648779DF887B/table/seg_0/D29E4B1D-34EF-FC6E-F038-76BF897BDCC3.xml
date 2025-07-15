@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D29E4B1D-34EF-FC6E-F038-76BF897BDCC3" name="m_loadmap_invest">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:24:35 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="companycd" id="87946A10-46ED-7D45-C256-866EA14C3BA3">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:29:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[사업장 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CED20C4-9274-0C17-EA2A-20AF26BE3B94" referredColumn="90889DA5-2CC3-E671-EB2D-D67ABB399153"/>
+</associations>
+</Column>
+<Column name="register_no" id="6D41C43A-BD15-B919-8569-0C3BF4D2FE3C">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:29:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리번호 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CED20C4-9274-0C17-EA2A-20AF26BE3B94" referredColumn="BC9A0C23-5F26-60D9-3E2C-107EB6267EFC"/>
+</associations>
+</Column>
+<Column name="subjet" id="75E33534-E0E6-75F0-F9BF-9577E843249D">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[투자 내역 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dev_type" id="1008E43E-FDBE-2C19-4F04-6266267F29CD">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:26:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[투자 단계 예_자체(S)/외부(O) ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dev_subject" id="AF8E4549-871C-06A6-4C18-DADAB3042CB3">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:27:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[항목명 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_" id="98FB2276-9C6B-002E-0A80-6000AEF676CA">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:28:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[계획금액 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="result_" id="0A3655DC-3ACD-AC6B-E718-D1AAA3598E8F">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:28:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[결과금액 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="remark_" id="A8374EC5-3FE1-2FF2-FA0E-CA110878A972">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:29:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[비고 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F0194ED-8F8F-DC5E-00C4-0627311B9E7C" name="m_loadmap_invest_PK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:25:12 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75E33534-E0E6-75F0-F9BF-9577E843249D"/>
+<colUsage columnID="1008E43E-FDBE-2C19-4F04-6266267F29CD"/>
+<colUsage columnID="AF8E4549-871C-06A6-4C18-DADAB3042CB3"/>
+<colUsage columnID="87946A10-46ED-7D45-C256-866EA14C3BA3"/>
+<colUsage columnID="6D41C43A-BD15-B919-8569-0C3BF4D2FE3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73FA0D78-93AD-D8FF-C8AC-AF21AD5C63FE" name="m_loadmap_invest_m_loadmap_FK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:29:10 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87946A10-46ED-7D45-C256-866EA14C3BA3"/>
+<colUsage columnID="6D41C43A-BD15-B919-8569-0C3BF4D2FE3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

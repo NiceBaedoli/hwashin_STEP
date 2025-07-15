@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4B7FF59-1C6D-AF02-6D07-2AAB0AD715BE" containerWithKeyObject="35717DE0-5F2E-D7C1-9F2F-DC3E96192287" localFKIndex="5869CCC0-AAE5-4ADA-054B-EA0742A0F17F" name="m_loadmap_program_m_loadmap_FK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:41:46 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<referredTableLongName>m_loadmap</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF4198DF-C079-C3BA-6080-2F9138DE858E</referredTableID>
+<keyObject>C1651176-6C50-6AD1-8B74-F71ED709078D</keyObject>
+<referredKeyID>C1651176-6C50-6AD1-8B74-F71ED709078D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>companycd,register_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

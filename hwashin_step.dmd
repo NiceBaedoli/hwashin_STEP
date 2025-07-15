@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hwashin_step" id="B7010BD6-9773-EFF9-6A6B-DF5CA417DFA8" version="3.5">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 02:25:36 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B7010BD6-9773-EFF9-6A6B-DF5CA417DFA8</designId>
+</OSDM_Design>

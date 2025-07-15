@@ -1,0 +1,431 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF4198DF-C079-C3BA-6080-2F9138DE858E" name="m_loadmap">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 04:49:11 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="companycd" id="90889DA5-2CC3-E671-EB2D-D67ABB399153">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 04:50:19 UTC</createdTime>
+<comment><![CDATA[법인코드]]></comment>
+<commentInRDBMS><![CDATA[법인코드]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="register_no" id="BC9A0C23-5F26-60D9-3E2C-107EB6267EFC">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 04:55:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리번호]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D42BB85-7863-65BB-3EB4-BEAEB2CAC7A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rd_con_element" id="850702EE-BB09-E44A-72A1-CE2B43345C47">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 04:59:48 UTC</createdTime>
+<comment><![CDATA[연구개발내용_요소기술]]></comment>
+<commentInRDBMS><![CDATA[연구개발내용_요소기술]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_class_1" id="7D6B74E0-3CEE-4370-C5FF-F90725B0C3E7">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 05:00:54 UTC</createdTime>
+<comment><![CDATA[제품 및 기술분류]]></comment>
+<commentInRDBMS><![CDATA[제품 및 기술분류 대분류 예_Steel]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_class_2" id="CACB206C-D595-A986-FFA2-07349E33E690">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:39:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[제품 및 기술분류 중분류 예_RR L/ARM]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_class_3" id="EBA49D31-1562-8D23-2DBD-B222F258B7DA">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:40:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[제품 및 기술분류 소분류 예_성형]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_class_4" id="44C33310-FCD1-3376-E3A1-CEC5CE9BDEDF">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:41:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[제품 및 기술분류 소분류 예_경량화]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="strate_task" id="E48588FE-33D9-ADE1-C90A-988C79D475D0">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:44:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[전략과제 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_name" id="D8C9AD38-C952-07B7-FBB5-89CB03D5B0E7">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:45:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[기술명칭 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_persp" id="50CE9605-E158-79DF-6FB9-FF67741125D4">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:46:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[기술관점 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="devel_level" id="EA207000-425A-9886-3770-24699718B05A">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:47:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[개발수준 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acqui_tech" id="4A3AFA85-73E5-BE05-BAA4-7BC527107DB9">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:48:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[기술획득 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="super_depart" id="D47E7489-1D20-E496-73E9-7D072C793922">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:49:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[주관부서 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="devel_user" id="E1D49C85-41FB-AF47-8E67-B91EA5453022">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:49:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[개발담당_정부 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relate_depart" id="0BF70405-366D-2CC2-BB66-B75718DFEFA4">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:50:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[연계부서 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="joint_research" id="0E16E326-AA88-8FCF-577A-BD6D3FD041BA">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:50:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[공동연구 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="image_" id="E6EDB44F-2AAA-55F7-DA00-4C2C957BE963">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:51:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[개략도 이미지 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diff_point" id="9B024CEF-5A43-E326-D49F-BFDB0A1062D9">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:53:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[난이도 점수 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_point" id="B7B6DFEF-8521-3187-DE6E-A0CE71F99C37">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:54:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[기여도 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="future_point" id="4B73479E-1E55-90DD-264B-6E487E8E0C5A">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:54:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[미래가치 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="suita_point" id="B353DB75-CC0D-E89C-B66A-36EA96A47C5E">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:55:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[적합성 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_pverview" id="56D4EC68-D77F-FEDB-BE22-23CD255353CB">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:56:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[1. 기술 개요 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C486132-5E15-9017-CDF4-520370F1D352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expect_effect" id="609D7E9E-CF43-0596-2548-1CAB373697DB">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:57:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[2. 기대효과 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C486132-5E15-9017-CDF4-520370F1D352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tech_trend" id="F34902D0-4A47-8862-6D02-41B5C4A384FE">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:57:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[기술동향 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C486132-5E15-9017-CDF4-520370F1D352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="over_task" id="81F1D672-10C8-C434-AC87-430E52812779">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:58:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[4. 극복과제 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C486132-5E15-9017-CDF4-520370F1D352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="devel_goals" id="D711314A-68A3-53EE-15DA-57DD8A2FDF1F">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:59:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[5. 개발목표 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C486132-5E15-9017-CDF4-520370F1D352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="action_plan" id="CD38BC3C-67B5-B9E8-63D0-3CBD09E8C8E8">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 04:59:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[6. 실행계획 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="target_program" id="F071F49B-C539-7775-3CB1-D3B88F112B84">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:22:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[대상차종코드 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goal_program" id="1F81C8E4-4326-D50B-2EF4-9C241C799EB7">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:23:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[목표차종 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stage_progress" id="886DF4C8-575B-8A23-9976-E5A830B1F961">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:01:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[진핻 단계 예_개발중. 진행중 등]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logid_companycd" id="0F711839-0D78-E70B-A30C-304B4C6C53E0">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:02:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자_사업장 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_date" id="5836C692-9701-10EB-42F7-9FE4F0EBCE46">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:02:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록시간 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_id" id="730567E9-2177-A2A2-F04C-27F09C062E0A">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:03:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 ID ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1651176-6C50-6AD1-8B74-F71ED709078D" name="m_loadmap_PK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-06-16 05:01:06 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90889DA5-2CC3-E671-EB2D-D67ABB399153"/>
+<colUsage columnID="BC9A0C23-5F26-60D9-3E2C-107EB6267EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

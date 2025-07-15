@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="874A7CBA-5B16-7D59-08DE-E3E946135F89" name="m_loadmap_connect">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:04:18 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="companycd" id="45C9E989-620D-CFB6-C4A4-E02564B14415">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[법인코드 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF6C66E-1430-60DC-1519-C199E4754880" referredColumn="90889DA5-2CC3-E671-EB2D-D67ABB399153"/>
+</associations>
+</Column>
+<Column name="register_no" id="6AF19582-8A43-D710-6F7D-2943DC586FBA">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리번호 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D42BB85-7863-65BB-3EB4-BEAEB2CAC7A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF6C66E-1430-60DC-1519-C199E4754880" referredColumn="BC9A0C23-5F26-60D9-3E2C-107EB6267EFC"/>
+</associations>
+</Column>
+<Column name="tech_registerno" id="8F83C54E-B7FD-72CC-6A73-095C9B0E3BD1">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:05:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[선행 기술 관리 번호 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43081F5E-98F9-F36A-BD86-463A2B22C2B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="remark_" id="FC38476B-19B8-D474-FFAF-D236DC04C494">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:07:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[비고 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C486132-5E15-9017-CDF4-520370F1D352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logid_companycd" id="4F7262B3-876A-6C2D-D13C-C5E6CA82F3A7">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:08:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 사업장 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_date" id="157EC14D-0286-8F2B-70CE-732393804709">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:08:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록 시간 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_id" id="343D7703-A57B-806C-7416-534277E83225">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:08:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 ID ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>902B4F18-9BB1-283A-F618-C7FFC4513D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FBB94CA-7BB9-5AE6-E337-3A71D6225A8B" name="m_loadmap_pretech_PK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:05:17 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F83C54E-B7FD-72CC-6A73-095C9B0E3BD1"/>
+<colUsage columnID="45C9E989-620D-CFB6-C4A4-E02564B14415"/>
+<colUsage columnID="6AF19582-8A43-D710-6F7D-2943DC586FBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="022D7B6F-75E8-C8DB-356D-BB4F6C91B69D" name="m_loadmap_pretech_m_loadmap_FK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-01 05:14:18 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45C9E989-620D-CFB6-C4A4-E02564B14415"/>
+<colUsage columnID="6AF19582-8A43-D710-6F7D-2943DC586FBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
