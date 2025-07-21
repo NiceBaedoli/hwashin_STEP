@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B70F1A18-50EE-CD75-815C-39245DE31619" containerWithKeyObject="26DCBC3A-BAC3-0E77-DEBB-FF6E1CCB0017" localFKIndex="FB5A2FA3-8F35-6355-40C6-8DE0C00375BB" name="STEP_CHECK_RESULT_STEP_CHK_STRUCTURE_FK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 04:25:26 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<referredTableLongName>STEP_CHK_STRUCTURE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71E0EFD5-8C9E-5FEE-1E5C-C6B94A83C534</referredTableID>
+<keyObject>81EBFCD3-B58D-C519-0F1F-E28B12069E2A</keyObject>
+<referredKeyID>81EBFCD3-B58D-C519-0F1F-E28B12069E2A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>companycd,check_master,check_gubun,upper_c_code,c_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

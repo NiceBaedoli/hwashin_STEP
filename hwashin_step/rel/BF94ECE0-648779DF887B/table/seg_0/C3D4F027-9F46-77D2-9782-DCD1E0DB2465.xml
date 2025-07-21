@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3D4F027-9F46-77D2-9782-DCD1E0DB2465" name="STEP_CHK_MAST">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:36:37 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="companycd" id="8FD071B8-9A90-9DC8-D3E1-1D0B1D9893BF">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:37:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[법인코드 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_code" id="104488F3-0DA1-C829-7671-3B2369911753">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:37:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[마스터 코드 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_name" id="654A0FC1-C4E8-9D43-11C0-EB154FCA8D28">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:38:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[코드명 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USE_YN" id="DD8189AD-4BD3-3CE8-B15D-8F8F70EA8FD1">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:38:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[사용여부 (Y/N)]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="번" id="48C5FB73-EE90-8105-06DC-2A390AE05C2D">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:39:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 사업방 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98D4A54F-2DC6-3DB0-504A-4F3B1BA7B91D</domain>
+<defaultValue>00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="자" id="2292834D-7A5F-3FFA-6020-4FCF79FF7720">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:40:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록 시간 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_id" id="7B911D77-8346-4CFD-147E-0709B5275126">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:41:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 사번]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1849520C-8AF3-4F64-A843-E3A092451D88" name="STEP_CHK_MAST_PK">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 02:37:18 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD071B8-9A90-9DC8-D3E1-1D0B1D9893BF"/>
+<colUsage columnID="104488F3-0DA1-C829-7671-3B2369911753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
