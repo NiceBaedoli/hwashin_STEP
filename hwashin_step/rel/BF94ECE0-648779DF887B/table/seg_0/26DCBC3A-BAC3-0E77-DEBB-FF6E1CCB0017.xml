@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="51EFB974-25DD-AF7A-EDD2-A2E3A68B5973" referredColumn="90889DA5-2CC3-E671-EB2D-D67ABB399153"/>
+<colAssociation fkAssociation="C1EA3E44-3E77-BCA9-B880-A2E9E2165FE9" referredColumn="ED41A6BE-60B3-EB5B-C5F7-45B352DF5C40"/>
 <colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="3D2AF1C0-F03E-37C9-7314-CAE916B9A51D"/>
 </associations>
 </Column>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="51EFB974-25DD-AF7A-EDD2-A2E3A68B5973" referredColumn="BC9A0C23-5F26-60D9-3E2C-107EB6267EFC"/>
+<colAssociation fkAssociation="C1EA3E44-3E77-BCA9-B880-A2E9E2165FE9" referredColumn="2425C55C-66BF-6765-3E6A-2775567B94BE"/>
 </associations>
 </Column>
 <Column name="check_master" id="A1559403-1CD2-79F5-F396-DE93B7FB4D7C">
@@ -50,6 +50,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
+<colAssociation fkAssociation="C1EA3E44-3E77-BCA9-B880-A2E9E2165FE9" referredColumn="8EDF4080-E9BB-1353-A687-BFEF045BBA32"/>
 <colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="6F94738D-D0DA-E3BE-E6C3-9A7D555F6E43"/>
 </associations>
 </Column>
@@ -65,6 +66,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
+<colAssociation fkAssociation="C1EA3E44-3E77-BCA9-B880-A2E9E2165FE9" referredColumn="1CF4FC43-CAE1-7926-8607-924BC36DCCBD"/>
 <colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="85062E2F-F343-7F7B-829E-397D4562E0E8"/>
 </associations>
 </Column>
@@ -81,6 +83,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="4BD64995-4011-6399-35DE-F2BC248CC275"/>
+</associations>
+</Column>
+<Column name="sno" id="B89D413C-A455-3920-E440-D39737CBD184">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 07:07:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[정렬순서 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="A4C158E8-B477-69A7-30EA-CB00529FC70F"/>
 </associations>
 </Column>
 <Column name="c_code" id="02C7F300-47A5-1CC4-6D7B-4EEB079BCD78">
@@ -214,6 +230,10 @@
 <colUsage columnID="D9E77EAA-D834-4F0C-5D64-2CB94DE40688"/>
 <colUsage columnID="4B4A33E2-3A1A-7AD4-E5AF-11924D360901"/>
 <colUsage columnID="A1559403-1CD2-79F5-F396-DE93B7FB4D7C"/>
+<colUsage columnID="B89D413C-A455-3920-E440-D39737CBD184"/>
+<colUsage columnID="CC900EC3-971B-0E42-706F-7E7A84C578BD"/>
+<colUsage columnID="AE385864-C506-C413-889A-0081BD226832"/>
+<colUsage columnID="02C7F300-47A5-1CC4-6D7B-4EEB079BCD78"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FB5A2FA3-8F35-6355-40C6-8DE0C00375BB" name="S_CHK_RESULT_S_CHK_STRU_FK">
@@ -228,17 +248,20 @@
 <colUsage columnID="CC900EC3-971B-0E42-706F-7E7A84C578BD"/>
 <colUsage columnID="AE385864-C506-C413-889A-0081BD226832"/>
 <colUsage columnID="02C7F300-47A5-1CC4-6D7B-4EEB079BCD78"/>
+<colUsage columnID="B89D413C-A455-3920-E440-D39737CBD184"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A070D37-02C2-2747-F611-88E1EAE82E78" name="S_CHE_RESULT_m_loadmap_FK">
+<ind_PK_UK id="9DF83546-1B7E-57C2-DFE9-F54D8C8E452B" name="S_CHK_RESULT_S_CHK_MAST_FK">
 <createdBy>baesungho</createdBy>
-<createdTime>2025-07-21 04:26:12 UTC</createdTime>
+<createdTime>2025-07-21 07:04:08 UTC</createdTime>
 <ownerDesignName>hwashin_step</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D9E77EAA-D834-4F0C-5D64-2CB94DE40688"/>
 <colUsage columnID="4B4A33E2-3A1A-7AD4-E5AF-11924D360901"/>
+<colUsage columnID="CC900EC3-971B-0E42-706F-7E7A84C578BD"/>
+<colUsage columnID="A1559403-1CD2-79F5-F396-DE93B7FB4D7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -66,6 +66,17 @@
 <colAssociation fkAssociation="4C139678-B085-32BB-A7DB-63F355D80805" referredColumn="104488F3-0DA1-C829-7671-3B2369911753"/>
 </associations>
 </Column>
+<Column name="sno" id="A4C158E8-B477-69A7-30EA-CB00529FC70F">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 06:51:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[정렬 순서 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="c_code" id="8B6927DF-27DA-C145-AF5E-E909C5848DF1">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:52:28 UTC</createdTime>
@@ -155,6 +166,21 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="STEP_CHK_MAST_c_type" id="36EA6278-9CB8-5C89-2D61-E27DDF8A637C">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 06:49:06 UTC</createdTime>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C139678-B085-32BB-A7DB-63F355D80805" referredColumn="ECA9B921-5FA1-F1E0-8845-C05610948E4A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="81EBFCD3-B58D-C519-0F1F-E28B12069E2A" name="STEP_CHK_STRUCTURE_PK">
@@ -170,6 +196,7 @@
 <colUsage columnID="85062E2F-F343-7F7B-829E-397D4562E0E8"/>
 <colUsage columnID="4BD64995-4011-6399-35DE-F2BC248CC275"/>
 <colUsage columnID="8B6927DF-27DA-C145-AF5E-E909C5848DF1"/>
+<colUsage columnID="A4C158E8-B477-69A7-30EA-CB00529FC70F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="981F6A76-A767-3C89-D48D-0C1A3BB2B859" name="S_CHK_STRU_S_CHK_LIST_FK">
@@ -192,6 +219,7 @@
 <indexColumnUsage>
 <colUsage columnID="3D2AF1C0-F03E-37C9-7314-CAE916B9A51D"/>
 <colUsage columnID="4BD64995-4011-6399-35DE-F2BC248CC275"/>
+<colUsage columnID="36EA6278-9CB8-5C89-2D61-E27DDF8A637C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

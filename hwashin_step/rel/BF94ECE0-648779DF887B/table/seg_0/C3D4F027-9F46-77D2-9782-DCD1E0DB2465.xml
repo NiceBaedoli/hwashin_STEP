@@ -20,6 +20,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="c_type" id="ECA9B921-5FA1-F1E0-8845-C05610948E4A">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 06:49:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[체크 구분 ( A : 상위 B : 하위 )]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="c_code" id="104488F3-0DA1-C829-7671-3B2369911753">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:37:51 UTC</createdTime>
@@ -45,7 +57,7 @@
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USE_YN" id="DD8189AD-4BD3-3CE8-B15D-8F8F70EA8FD1">
+<Column name="use_yn" id="DD8189AD-4BD3-3CE8-B15D-8F8F70EA8FD1">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:38:58 UTC</createdTime>
 <commentInRDBMS><![CDATA[사용여부 (Y/N)]]></commentInRDBMS>
@@ -58,7 +70,7 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="번" id="48C5FB73-EE90-8105-06DC-2A390AE05C2D">
+<Column name="logid_companycd" id="48C5FB73-EE90-8105-06DC-2A390AE05C2D">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:39:41 UTC</createdTime>
 <commentInRDBMS><![CDATA[등록자 사업방 ]]></commentInRDBMS>
@@ -71,7 +83,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="자" id="2292834D-7A5F-3FFA-6020-4FCF79FF7720">
+<Column name="login_date" id="2292834D-7A5F-3FFA-6020-4FCF79FF7720">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:40:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[등록 시간 ]]></commentInRDBMS>
@@ -108,6 +120,7 @@
 <indexColumnUsage>
 <colUsage columnID="8FD071B8-9A90-9DC8-D3E1-1D0B1D9893BF"/>
 <colUsage columnID="104488F3-0DA1-C829-7671-3B2369911753"/>
+<colUsage columnID="ECA9B921-5FA1-F1E0-8845-C05610948E4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
