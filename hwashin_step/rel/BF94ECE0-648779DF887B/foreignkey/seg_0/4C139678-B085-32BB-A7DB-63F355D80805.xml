@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C139678-B085-32BB-A7DB-63F355D80805" containerWithKeyObject="71E0EFD5-8C9E-5FEE-1E5C-C6B94A83C534" localFKIndex="E1E3FAA2-4F79-D005-798A-B165C4B931D8" name="STEP_CHK_STRUCTURE_STEP_CHK_MAST_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C139678-B085-32BB-A7DB-63F355D80805" containerWithKeyObject="71E0EFD5-8C9E-5FEE-1E5C-C6B94A83C534" localFKIndex="E1E3FAA2-4F79-D005-798A-B165C4B931D8" name="S_CHK_STRU_S_CHK_MAST_FK">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:56:54 UTC</createdTime>
 <ownerDesignName>hwashin_step</ownerDesignName>

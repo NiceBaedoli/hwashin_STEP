@@ -60,7 +60,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20 BYTE</dataTypeSize>
-<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="4C139678-B085-32BB-A7DB-63F355D80805" referredColumn="104488F3-0DA1-C829-7671-3B2369911753"/>
@@ -172,7 +172,7 @@
 <colUsage columnID="8B6927DF-27DA-C145-AF5E-E909C5848DF1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="981F6A76-A767-3C89-D48D-0C1A3BB2B859" name="STEP_CHK_STRUCTURE_STEP_CHK_LIST_FK">
+<ind_PK_UK id="981F6A76-A767-3C89-D48D-0C1A3BB2B859" name="S_CHK_STRU_S_CHK_LIST_FK">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:56:28 UTC</createdTime>
 <ownerDesignName>hwashin_step</ownerDesignName>
@@ -183,7 +183,7 @@
 <colUsage columnID="6F94738D-D0DA-E3BE-E6C3-9A7D555F6E43"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E1E3FAA2-4F79-D005-798A-B165C4B931D8" name="STEP_CHK_STRUCTURE_STEP_CHK_MAST_FK">
+<ind_PK_UK id="E1E3FAA2-4F79-D005-798A-B165C4B931D8" name="S_CHK_STRU_S_CHK_MAST_FK">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 02:56:54 UTC</createdTime>
 <ownerDesignName>hwashin_step</ownerDesignName>

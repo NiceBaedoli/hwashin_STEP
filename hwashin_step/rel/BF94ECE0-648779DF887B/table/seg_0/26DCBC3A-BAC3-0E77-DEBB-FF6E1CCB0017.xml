@@ -20,8 +20,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="3D2AF1C0-F03E-37C9-7314-CAE916B9A51D"/>
 <colAssociation fkAssociation="51EFB974-25DD-AF7A-EDD2-A2E3A68B5973" referredColumn="90889DA5-2CC3-E671-EB2D-D67ABB399153"/>
+<colAssociation fkAssociation="B70F1A18-50EE-CD75-815C-39245DE31619" referredColumn="3D2AF1C0-F03E-37C9-7314-CAE916B9A51D"/>
 </associations>
 </Column>
 <Column name="register_no" id="4B4A33E2-3A1A-7AD4-E5AF-11924D360901">
@@ -137,6 +137,32 @@
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="final_result_remark" id="A3CB7389-C8F1-7C12-9CDF-12F988D244F7">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 04:46:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[종합 평가 의견 ]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="final_result" id="B924F397-4CD2-2AA4-B714-57666A4E6DFE">
+<createdBy>baesungho</createdBy>
+<createdTime>2025-07-21 04:47:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[최종 판정 ( S:착수 C:보완 R: 기각 )]]></commentInRDBMS>
+<ownerDesignName>hwashin_step</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="logid_companycd" id="5AB66DE7-7501-A73D-2EAF-2171D08DD5CF">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 04:22:09 UTC</createdTime>
@@ -190,7 +216,7 @@
 <colUsage columnID="A1559403-1CD2-79F5-F396-DE93B7FB4D7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FB5A2FA3-8F35-6355-40C6-8DE0C00375BB" name="STEP_CHECK_RESULT_STEP_CHK_STRUCTURE_FK">
+<ind_PK_UK id="FB5A2FA3-8F35-6355-40C6-8DE0C00375BB" name="S_CHK_RESULT_S_CHK_STRU_FK">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 04:25:26 UTC</createdTime>
 <ownerDesignName>hwashin_step</ownerDesignName>
@@ -204,7 +230,7 @@
 <colUsage columnID="02C7F300-47A5-1CC4-6D7B-4EEB079BCD78"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A070D37-02C2-2747-F611-88E1EAE82E78" name="STEP_CHECK_RESULT_m_loadmap_FK">
+<ind_PK_UK id="1A070D37-02C2-2747-F611-88E1EAE82E78" name="S_CHE_RESULT_m_loadmap_FK">
 <createdBy>baesungho</createdBy>
 <createdTime>2025-07-21 04:26:12 UTC</createdTime>
 <ownerDesignName>hwashin_step</ownerDesignName>
